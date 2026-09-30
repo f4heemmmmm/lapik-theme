@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "d1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long is delivery?",
+            "icon": "none",
+            "row_content": "<p>5 to 10 days from order, tracked. Orders are processed in 1 to 3 working days and ship from our supplier's warehouse overseas. Delivery is S$3.90, free over S$50.</p>"
+          }
+        },
+        "d2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you deliver?",
+            "icon": "none",
+            "row_content": "<p>Singapore only for now.</p>"
+          }
+        },
+        "d3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I be charged import GST?",
+            "icon": "none",
+            "row_content": "<p>No. Parcels under S$400 are not charged GST on import into Singapore, and our prices are what you pay.</p>"
+          }
+        },
+        "d4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My parcel has not arrived",
+            "icon": "none",
+            "row_content": "<p>If tracking shows no movement 12 days after ordering, email us. We trace it or resend, your choice.</p>"
+          }
+        },
+        "r1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Damaged or not as described",
+            "icon": "none",
+            "row_content": "<p>Email us within 7 days of delivery with a photo. We replace it or refund you in full. Defects that appear within 6 months are covered under Singapore's Consumer Protection (Fair Trading) Act.</p>"
+          }
+        },
+        "r2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Change of mind",
+            "icon": "none",
+            "row_content": "<p>Unused items in original packaging can be returned within 14 days of delivery. You cover return postage to our Singapore address; we refund the item price once received. Delivery fees are not refunded for change of mind.</p>"
+          }
+        },
+        "p1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the Travel Set waterproof?",
+            "icon": "none",
+            "row_content": "<p>No. It is a fabric mat with a soft finish. It wipes clean but is not a waterproof base.</p>"
+          }
+        },
+        "p2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which mats are padded?",
+            "icon": "none",
+            "row_content": "<p>Only the Knee Cushion Rug, and the cushion sits under the knee area. The Travel Set and the Everyday mat are thin by design.</p>"
+          }
+        },
+        "p3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do any designs include the Kaaba image?",
+            "icon": "none",
+            "row_content": "<p>Three of the six Everyday designs do. The product page says which, so you can choose a plain pattern if you prefer.</p>"
+          }
+        },
+        "p4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I wash them?",
+            "icon": "none",
+            "row_content": "<p>Hand wash cold and dry in shade. The Knee Cushion Rug's cover unzips; the insert should not be machine washed.</p>"
+          }
+        },
+        "s1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this a Singapore store?",
+            "icon": "none",
+            "row_content": "<p>Yes. We are a small Singapore store. Products ship from our supplier's warehouse overseas, which is why delivery takes 5 to 10 days. A person answers every email.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "r1",
+        "r2",
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "s1"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

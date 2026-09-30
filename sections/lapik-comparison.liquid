@@ -1,0 +1,151 @@
+{{ 'section-lapik-comparison.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div id="which-mat" class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="lapik-comparison__heading {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+    {%- if section.settings.intro != blank -%}
+      <div class="lapik-comparison__intro rte">{{ section.settings.intro }}</div>
+    {%- endif -%}
+
+    <div class="lapik-comparison__scroll" role="region" aria-label="{{ section.settings.heading | default: 'Comparison table' | escape }}" tabindex="0">
+      <table class="lapik-comparison__table">
+        <caption class="visually-hidden">{{ section.settings.heading | default: 'Comparison table' | escape }}</caption>
+        <thead>
+          <tr>
+            <th scope="col">{{ section.settings.col_0 | escape }}</th>
+            {%- if section.settings.col_1 != blank -%}<th scope="col">{{ section.settings.col_1 | escape }}</th>{%- endif -%}
+            {%- if section.settings.col_2 != blank -%}<th scope="col" class="lapik-comparison__ours">{{ section.settings.col_2 | escape }}</th>{%- endif -%}
+            {%- if section.settings.col_3 != blank -%}<th scope="col" class="lapik-comparison__ours">{{ section.settings.col_3 | escape }}</th>{%- endif -%}
+            {%- if section.settings.col_4 != blank -%}<th scope="col" class="lapik-comparison__ours">{{ section.settings.col_4 | escape }}</th>{%- endif -%}
+          </tr>
+        </thead>
+        <tbody>
+          {%- for block in section.blocks -%}
+            <tr {{ block.shopify_attributes }}>
+              <th scope="row">{{ block.settings.feature | escape }}</th>
+              {%- if section.settings.col_1 != blank -%}<td>{{ block.settings.value_1 | escape }}</td>{%- endif -%}
+              {%- if section.settings.col_2 != blank -%}<td class="lapik-comparison__ours">{{ block.settings.value_2 | escape }}</td>{%- endif -%}
+              {%- if section.settings.col_3 != blank -%}<td class="lapik-comparison__ours">{{ block.settings.value_3 | escape }}</td>{%- endif -%}
+              {%- if section.settings.col_4 != blank -%}<td class="lapik-comparison__ours">{{ block.settings.value_4 | escape }}</td>{%- endif -%}
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+
+    {%- if section.settings.footnote != blank -%}
+      <p class="lapik-comparison__footnote">{{ section.settings.footnote }}</p>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Comparison table",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Which mat is for you?",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" }
+      ],
+      "default": "h1",
+      "label": "Heading size"
+    },
+    {
+      "type": "richtext",
+      "id": "intro",
+      "label": "Intro text"
+    },
+    { "type": "header", "content": "Columns" },
+    { "type": "text", "id": "col_0", "default": "Feature", "label": "First column heading" },
+    { "type": "text", "id": "col_1", "default": "Typical S$5 pocket mat", "label": "Column 1 heading" },
+    { "type": "text", "id": "col_2", "default": "Lapik Everyday", "label": "Column 2 heading" },
+    { "type": "text", "id": "col_3", "default": "Lapik Travel Set", "label": "Column 3 heading" },
+    { "type": "text", "id": "col_4", "default": "Lapik Knee Cushion Rug", "label": "Column 4 heading" },
+    {
+      "type": "text",
+      "id": "footnote",
+      "label": "Footnote",
+      "info": "Use this to state where the figures come from."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Row",
+      "settings": [
+        { "type": "text", "id": "feature", "default": "Weight", "label": "Feature" },
+        { "type": "text", "id": "value_1", "label": "Column 1 value" },
+        { "type": "text", "id": "value_2", "label": "Column 2 value" },
+        { "type": "text", "id": "value_3", "label": "Column 3 value" },
+        { "type": "text", "id": "value_4", "label": "Column 4 value" }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "Comparison table",
+      "blocks": [
+        { "type": "row", "settings": { "feature": "Weight", "value_1": "About 100 g", "value_2": "194 g", "value_3": "320 g with bag and tasbih", "value_4": "About 1 kg" } },
+        { "type": "row", "settings": { "feature": "Base", "value_1": "Plain fabric", "value_2": "Rubberised non-slip", "value_3": "Fabric", "value_4": "Anti-slip dots" } },
+        { "type": "row", "settings": { "feature": "Padding", "value_1": "None", "value_2": "None", "value_3": "None", "value_4": "Cushion under the knees" } },
+        { "type": "row", "settings": { "feature": "Carry bag", "value_1": "Sometimes", "value_2": "No", "value_3": "Yes, included", "value_4": "No" } },
+        { "type": "row", "settings": { "feature": "Best for", "value_1": "Emergencies", "value_2": "Bag, office, campus", "value_3": "Travel, gifting", "value_4": "Home, long prayers" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

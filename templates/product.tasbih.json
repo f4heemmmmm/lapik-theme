@@ -9,7 +9,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Wooden tasbih with tassel. 33 or 99 beads.",
             "text_style": "subtitle"
           }
         },
@@ -51,13 +51,22 @@
         "tab_1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What is included",
+            "heading": "What is in the box",
             "icon": "box",
-            "content": "<p>See the product description.</p>",
+            "content": "<p>1 tasbih.</p>",
             "page": ""
           }
         },
         "tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Honest notes",
+            "icon": "clipboard",
+            "content": "<p>Colour varies slightly because it is wood. Best added to a mat order.</p>",
+            "page": ""
+          }
+        },
+        "tab_3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery and returns",
@@ -84,6 +93,7 @@
         "description",
         "tab_1",
         "tab_2",
+        "tab_3",
         "share"
       ],
       "settings": {

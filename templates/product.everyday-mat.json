@@ -9,7 +9,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "65 x 110 cm velvet mat with a non-slip base. 194 g.",
             "text_style": "subtitle"
           }
         },
@@ -51,13 +51,40 @@
         "tab_1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What is included",
+            "heading": "What is in the box",
             "icon": "box",
-            "content": "<p>See the product description.</p>",
+            "content": "<p>1 mat, 65 x 110 cm.</p>",
             "page": ""
           }
         },
         "tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "On the designs",
+            "icon": "clipboard",
+            "content": "<p>Three designs are plain patterns (Gold Border, Kiswah Band, Minimal Band). Three include Kaaba imagery (Kaaba Door, Kiswah Motif, Kaaba Illustration). If you prefer not to have the Kaaba image on the standing area, choose one of the first three.</p>",
+            "page": ""
+          }
+        },
+        "tab_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Honest notes",
+            "icon": "clipboard",
+            "content": "<p>Thin by design: an everyday mat, not a padded one. Thickness to be stated after our sample check. No carry bag; the Travel Set has one.</p>",
+            "page": ""
+          }
+        },
+        "tab_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care",
+            "icon": "leaf",
+            "content": "<p>Spot clean or hand wash cold, dry flat in shade. Do not fold while damp.</p>",
+            "page": ""
+          }
+        },
+        "tab_5": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery and returns",
@@ -84,6 +111,9 @@
         "description",
         "tab_1",
         "tab_2",
+        "tab_3",
+        "tab_4",
+        "tab_5",
         "share"
       ],
       "settings": {

@@ -9,7 +9,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "70 x 110 cm velvet rug with a sponge cushion under the knees. About 1 kg.",
             "text_style": "subtitle"
           }
         },
@@ -51,13 +51,40 @@
         "tab_1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What is included",
+            "heading": "What is in the box",
             "icon": "box",
-            "content": "<p>See the product description.</p>",
+            "content": "<p>1 rug with a zipped, removable cushion insert. Ships compressed (about 70 x 40 cm packed) and expands after unpacking.</p>",
             "page": ""
           }
         },
         "tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How the cushion works",
+            "icon": "clipboard",
+            "content": "<p>The cushion sits under the knee area only; the rest is a normal velvet mat. That keeps it light enough to store and ship. The insert unzips for washing the cover. Cushion thickness to be stated after our sample measurement.</p>",
+            "page": ""
+          }
+        },
+        "tab_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Honest notes",
+            "icon": "clipboard",
+            "content": "<p>This is a home or office mat, not a travel one. Cushion firmness softens slightly with use.</p>",
+            "page": ""
+          }
+        },
+        "tab_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care",
+            "icon": "leaf",
+            "content": "<p>Velvet surface: spot clean. Remove the insert and hand wash the cover; air dry. Do not machine wash the insert.</p>",
+            "page": ""
+          }
+        },
+        "tab_5": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery and returns",
@@ -84,6 +111,9 @@
         "description",
         "tab_1",
         "tab_2",
+        "tab_3",
+        "tab_4",
+        "tab_5",
         "share"
       ],
       "settings": {

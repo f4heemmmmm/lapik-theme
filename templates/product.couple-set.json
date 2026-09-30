@@ -9,7 +9,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Two matching 70 x 110 cm flannel mats, green and beige.",
             "text_style": "subtitle"
           }
         },
@@ -51,13 +51,31 @@
         "tab_1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What is included",
+            "heading": "What is in the box",
             "icon": "box",
-            "content": "<p>See the product description.</p>",
+            "content": "<p>2 mats, 70 x 110 cm each, 10 mm flannel. One green, one beige.</p>",
             "page": ""
           }
         },
         "tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Who it is for",
+            "icon": "heart",
+            "content": "<p>Wedding and hantaran gifts, Raya gifts for parents, or a set for a couple's home.</p>",
+            "page": ""
+          }
+        },
+        "tab_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Honest notes",
+            "icon": "clipboard",
+            "content": "<p>Home mats, about 1 kg for the pair. Not for carrying daily. Photos are supplier photos until we update them with our own.</p>",
+            "page": ""
+          }
+        },
+        "tab_4": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery and returns",
@@ -84,6 +102,8 @@
         "description",
         "tab_1",
         "tab_2",
+        "tab_3",
+        "tab_4",
         "share"
       ],
       "settings": {

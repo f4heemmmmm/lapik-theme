@@ -9,7 +9,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "70 x 120 cm mat, carry bag and tasbih. 320 g all in.",
             "text_style": "subtitle"
           }
         },
@@ -51,18 +51,45 @@
         "tab_1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What is included",
+            "heading": "What is in the box",
             "icon": "box",
-            "content": "<p>See the product description.</p>",
+            "content": "<p>1 prayer mat (70 x 120 cm), 1 drawstring carry bag in matching fabric, 1 tasbih.</p>",
             "page": ""
           }
         },
         "tab_2": {
           "type": "collapsible_tab",
           "settings": {
+            "heading": "Honest notes",
+            "icon": "clipboard",
+            "content": "<p>This is a flat, packable mat, not a padded one. If you want padding under the knees, see the Knee Cushion Rug. It is not waterproof. Colours are dyed fabric and may vary slightly from screen.</p>",
+            "page": ""
+          }
+        },
+        "tab_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care",
+            "icon": "leaf",
+            "content": "<p>Hand wash cold, hang dry in shade. Do not tumble dry. The bag washes the same way.</p>",
+            "page": ""
+          }
+        },
+        "tab_4": {
+          "type": "collapsible_tab",
+          "settings": {
             "heading": "Delivery and returns",
             "icon": "truck",
             "content": "<p><strong>Delivery:</strong> 5 to 10 days in Singapore, tracked. S$3.90, free over S$50.</p><p><strong>Returns:</strong> damaged or not as described, replaced or refunded within 7 days of delivery on a photo. Change of mind, 14 days, unused, you cover return postage. Defects within 6 months are covered under Singapore's Lemon Law.</p>",
+            "page": ""
+          }
+        },
+        "tab_5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Questions",
+            "icon": "question_mark",
+            "content": "<p><strong>Is the mat waterproof?</strong> No. It is a fabric mat with a soft finish. It wipes clean but is not a waterproof base.</p><p><strong>How small does it fold?</strong> Into its own bag. Folded size to be confirmed on our sample.</p><p><strong>Is the tasbih wood?</strong> To be confirmed on our sample.</p>",
             "page": ""
           }
         },
@@ -84,6 +111,9 @@
         "description",
         "tab_1",
         "tab_2",
+        "tab_3",
+        "tab_4",
+        "tab_5",
         "share"
       ],
       "settings": {

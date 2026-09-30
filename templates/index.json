@@ -1,21 +1,243 @@
 {
   "sections": {
-    "image_banner": {
+    "hero": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "Prayer mats for office, travel and home.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Non-slip, foldable and light enough to live in your bag. Delivered in Singapore in 5 to 10 days.",
+            "text_style": "body"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the range",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "Which mat is for me?",
+            "button_link_2": "#which-mat",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "image_behavior": "none",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "image": "shopify://shop_images/d96e346a-3ed7-43f9-ae80-87025cb8cf94.jpg"
+      }
+    },
+    "why": {
+      "type": "multicolumn",
+      "blocks": {
+        "c1": {
+          "type": "column",
+          "settings": {
+            "title": "Stays put",
+            "text": "<p>The Everyday mat has a rubberised base for tiled floors and office carpet. No bunching, no sliding.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c2": {
+          "type": "column",
+          "settings": {
+            "title": "Lives in your bag",
+            "text": "<p>The Travel Set weighs 320 g with its carry bag and tasbih. Meeting room, campus, hotel, Umrah.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c3": {
+          "type": "column",
+          "settings": {
+            "title": "Kind to knees",
+            "text": "<p>The Knee Cushion Rug has a sponge cushion where your knees land, and a zip so it comes out for washing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "settings": {
+        "title": "One job each",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "The range",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "which_mat": {
+      "type": "lapik-comparison",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Weight",
+            "value_1": "About 100 g",
+            "value_2": "194 g",
+            "value_3": "320 g with bag and tasbih",
+            "value_4": "About 1 kg"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Base",
+            "value_1": "Plain fabric",
+            "value_2": "Rubberised non-slip",
+            "value_3": "Fabric",
+            "value_4": "Anti-slip dots"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Padding",
+            "value_1": "None",
+            "value_2": "None",
+            "value_3": "None",
+            "value_4": "Cushion under the knees"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Carry bag",
+            "value_1": "Sometimes",
+            "value_2": "No",
+            "value_3": "Yes, included",
+            "value_4": "No"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "feature": "Size",
+            "value_1": "Varies",
+            "value_2": "65 x 110 cm",
+            "value_3": "70 x 120 cm",
+            "value_4": "70 x 110 cm"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "feature": "Best for",
+            "value_1": "Emergencies",
+            "value_2": "Bag, office, campus",
+            "value_3": "Travel, gifting",
+            "value_4": "Home, long prayers"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ],
+      "settings": {
+        "heading": "Which mat is for you?",
+        "heading_size": "h2",
+        "intro": "<p>Four mats, one job each. If you carry it every day, start with the Everyday mat or the Travel Set. If your knees complain, the rug.</p>",
+        "col_0": "",
+        "col_1": "Typical S$5 pocket mat",
+        "col_2": "Lapik Everyday",
+        "col_3": "Lapik Travel Set",
+        "col_4": "Lapik Knee Cushion Rug",
+        "footnote": "Lapik weights and sizes are from supplier specifications and our own sample checks. Pocket-mat figures are typical of S$3 to 6 marketplace listings.",
+        "color_scheme": "scheme-2",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "story": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Lapik",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lapik is a Malay word for an underlay: the thing you put beneath you so what is beneath stays clean. It is also what a prayer mat is, and we thought it deserved a better version than the S$5 one that slides across the office floor.</p><p>We are a small Singapore store. We pick a few mats, check them ourselves, and ship them here in 5 to 10 days.</p>"
           }
         },
         "button": {
-          "type": "buttons",
+          "type": "button",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label": "Our story",
+            "button_link": "shopify://pages/about",
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -24,52 +246,115 @@
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 24
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long is delivery?",
+            "icon": "none",
+            "row_content": "<p>5 to 10 days from order, tracked. Orders ship from our supplier's warehouse overseas. Delivery is S$3.90, free over S$50.</p>"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you deliver?",
+            "icon": "none",
+            "row_content": "<p>Singapore only for now.</p>"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if it arrives damaged or not as described?",
+            "icon": "none",
+            "row_content": "<p>Email us within 7 days of delivery with a photo and we will replace it or refund you in full, your choice. Defects within 6 months are covered under Singapore's Lemon Law.</p>"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I return it if I change my mind?",
+            "icon": "none",
+            "row_content": "<p>Yes, unused and in original packaging, within 14 days of delivery. You cover return postage; we refund the item price.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
       "settings": {
-        "title": "Featured products",
+        "caption": "",
+        "heading": "Questions",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "open_first_collapsible_row": false,
         "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
+        "desktop_layout": "image_second",
+        "padding_top": 24,
         "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Order-by dates for Ramadan and Raya",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>One email when we publish the cut-off dates, and when a new mat is added. No weekly newsletters.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form"
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "hero",
+    "why",
+    "products",
+    "which_mat",
+    "story",
+    "faq",
+    "newsletter"
   ]
 }
