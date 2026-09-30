@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo_width": 90,
+    "logo_width": 110,
     "customer_account_menu": "customer-account-main-menu",
     "color_schemes": {
       "scheme-1": {
@@ -156,7 +156,7 @@
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "Lapik",
     "brand_description": "<p>Prayer mats for office, travel and home. Singapore delivery in 5 to 10 days.</p>",
-    "brand_image_width": 120,
+    "brand_image_width": 60,
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
@@ -188,6 +188,9 @@
           "color_scheme": "scheme-1"
         }
       }
-    }
+    },
+    "logo": "shopify://shop_images/lapik-logo.png",
+    "favicon": "shopify://shop_images/lapik-icon.png",
+    "brand_image": "shopify://shop_images/lapik-icon.png"
   }
 }
